@@ -71,48 +71,64 @@ happiness-ai/
 ```
 
 ⚙️ Installation & Run
+
 1️⃣ Clone Repository
+
 git clone https://github.com/yourusername/happiness-ai.git
 cd happiness-ai
 
 2️⃣ Create Virtual Environment
+
 python3 -m venv .venv
 source .venv/bin/activate
+
 3️⃣ Install Dependencies
+
 pip install -r requirements.txt
+
 ▶️ Run Data Pipeline
+
 Load Dataset
 python src/load_data.py
+
 Clean Data
 python src/clean_data.py
+
 Exploratory Analysis
 python src/eda.py
+
 Train Model
 python src/model.py
+
 SHAP Explainability
 python src/shap_analysis.py
+
 🌐 Launch Dashboard
 python app/dash_app.py
 
 Then open:
 
 http://127.0.0.1:8050/
+
 📈 Model Performance
 Metric	Score
 MAE	0.228
 RMSE	0.324
 R²	0.912
+
 🧠 Top Predictive Drivers
 Social Support
 GDP per Capita
 Healthy Life Expectancy
 Freedom
 Corruption
+
 💼 Resume Description
 
 Built an end-to-end analytics platform using 2005–2025 World Happiness data across 150+ countries; cleaned panel data, analyzed country trends, and developed an XGBoost model (R² = 0.91) to predict happiness scores. Deployed an interactive Dash dashboard for rankings, comparisons, and forecasting.
 
 🔮 Future Enhancements
+
 Global choropleth happiness map
 Forecast scores to 2030
 Country clustering analysis
